@@ -1,0 +1,139 @@
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  ;
+   
+} */
+
+
+ /* Header Styling - Top Left */
+ header {
+    position: absolute;
+    top: 20px;
+    position: centre;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+footer {
+    position: absolute;
+    
+    bottom: 20px;
+    right: 20px;
+    font-size: 17px;
+    color:linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);;
+    opacity: 0.8;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+/* .container{
+    width: 400px;
+    background-color: grey;
+    padding: 25px 35px;
+    border-radius:  10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    background-color: white;
+} */
+
+
+.container {
+    width: 400px;
+    padding: 25px 35px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: center;
+}
+.container p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+.container input{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid rgb(288, 223, 223);
+    outline : none;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.1) inset;
+    margin-bottom: 30px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #742dcb;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    margin: 20px 0;
+}
+
+#img-box{
+    width: 200px;
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    align-items: center;
+    transition: max-height 1s;
+}
+
+#img-box img{
+    width: 100%;
+    padding: 10px;
+}
+
+#img-box.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 10px solid rgb(201,199,199);
+} */
+
+
+
+
+ */
+
+/* Footer Styling - Bottom Right */
